@@ -1,0 +1,10 @@
+#RAINBOW_COLOR
+<h1 class="red-rainbow-color" style="align-content: center">Welcome</h1>
+
+#RAINBOW_BACKGROUND
+<div class="red-rainbow-background"></div>
+
+#ICON_MENU
+<div class="red-icon-menu"></div>
+
+#IPHONE BUTTON

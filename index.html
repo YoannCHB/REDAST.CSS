@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="keyframes.css"/>
+        <link rel="stylesheet" href="redast.css"/>
+        <link rel="stylesheet" href="red-icon.css"/>
+        <style>
+            .page{
+                position: absolute;
+                top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="red-border red-pres">
+            <div class="red-icon-menu-white red-define-moov">
+                <div class="red-menu">
+                        <div class="red-border-left">
+                            <p class="red-margin red-cursor-default">All Menu</p>
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 1
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 2
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 3
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 4
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 5
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 6
+                        </div>
+                        <div class="red-div-btn-1">
+                             Menu 7
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 8
+                         </div>
+                        <div class="red-div-btn-1">
+                            Menu 9
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 10
+                        </div>
+                        <div class="red-div-btn-1">
+                             Menu 11
+                        </div>
+                        <div class="red-div-btn-1">
+                            Menu 12
+                        </div>
+                </div>
+            </div>
+            <div class="red-text">
+                <p class="red-title red-left red-anim-rotate" style="margin-left: 100px">My website</p>
+            </div>
+        </div>
+
+        <div class="red-dropdown-1" style="position: absolute; top: 5px; right: 0">
+                <p class="red-cursor-default red-center-div">Dropdown</p>
+                <div class="red-dropmenu-1">
+                    <div class="red-item red-block">
+                        <p class="red-text red-margin">Salut</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="page">
+            <div class="red-card-little" id="card">
+                    <img class="red-img" src="core/build.jpg" id="img"/>
+                <div class="red-container">
+                    <p class="red-center red-title red-margin">A beatiful city !</p>
+                    <p class="red-text red-center red-margin">I live in French, whe can say it's my city and you ?</p>
+                    
+                <input type="checkbox" class="red-click-shutdown" id="ios"></input>
+                <div class="red-shutdown red-center-div">
+                <label for="ios" class="red-button-shutdown" onclick="javascript:button(this);"></label>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<div class="red-icon-refresh-2 red-middle"></div>-->
+
+        <div class="red-modal" id="mod">
+            <div class="red-modal-page">
+                <p class="red-margin red-title red-center">Hello</p>
+                <p class="red-margin red-center">It's a modal from Redast css program</p>
+            </div>
+        <label class="red-modal-close red-item" onclick="javascript:document.getElementById('mod').style.display = 'none'"></label>
+        </div>
+
+    </body>
+    <script>
+        function button(e){
+            let d = document.getElementById('img');
+            let dd = document.getElementById('card');
+            if(e.className == "red-button-shutdown"){
+                d.className = "red-img red-img-circle red-img-default red-filter-blur";
+                dd.className = "red-card-little red-anim-rotate";
+                e.className = 'red-button-shutdown-2';
+            } else {
+                d.className = "red-img";
+                dd.className = "red-card-little";
+                e.className = 'red-button-shutdown';
+            }
+        }
+    </script>
+</html>
