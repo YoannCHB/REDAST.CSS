@@ -1,2 +1,5 @@
 # REDAST.CSS
-An external css document for you !
+
+Donate :) https://paypal.me/pools/c/89QrGuFsVk;
+
+Read me comming...
