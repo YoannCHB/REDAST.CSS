@@ -5,6 +5,11 @@ body{
     line-height: 1.5;
 }
 
+/*DISPLAY*/
+.red-line{
+    display: inline-block;
+}
+
 /*INPUT*/
 .red-inp-1{
     border-bottom: 2px solid #ccc;
